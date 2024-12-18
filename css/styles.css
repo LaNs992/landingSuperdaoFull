@@ -1080,3 +1080,45 @@ color:#40354B ;
 margin-top: 5px;
 margin-left: -30px;
 }
+.footer{
+  background-color:#121E28 ;
+  min-height:  168px; ;
+  display: grid;
+  justify-content: space-around;
+}
+.footer__block{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.footer__icon{
+  display: flex;
+  margin-left: 100px;
+
+}
+.fot_ic{
+  margin-right: 23px;
+}
+.footer__logo{
+  min-height: 42px;
+  max-width: 253PX;
+  margin-left: 10px;
+}
+.header__menu-items{
+  margin-right: 36px;
+  font-size: 22px;
+  color:#FFFFFF ;
+  margin-right: 47px;
+  font-weight:600;
+  font-family: 'Montserrat', sans-serif;
+}
+.header__menu-items a {
+  text-decoration: none;
+}
+.header__menu-items:hover
+{
+  color: #FFC803;
+}
+.footer__text{
+  margin-left: 170px;
+}
