@@ -785,7 +785,84 @@ padding-left: 30px;
   margin-left: 75px;
   align-items: flex-end;
 }
-.card__backed{
+
+/* .container__cards__backed {
+  display: flex;
+  gap: 8px;
+  position: relative;
+  animation: scroll 30s linear infinite;
+  animation-delay: 2s;
+  height: auto;
+  min-width: 100%;
+  padding: 32px;
+  display: flex;
+  position: relative;
+  z-index: 2;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  
+}
+
+.card__backed {
+  display: flex;
+  justify-content: center;
+max-width: 334px;
+max-height: 132px;
+padding: 44.51px 47px 43.99px 51px;
+gap: 10px;
+border-radius: 30px ;
+border: 2px solid #2A3744;
+background-color: #121E28;
+}
+
+.card__backed:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.7);
+} */
+
+.card__backed img {
+  max-height: 52px;
+  max-width: 100%;
+  filter: brightness(0.9);
+}
+
+.container__wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding: 20px 0;
+
+}
+
+.container__wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 300px;
+  height: 100%;
+  z-index: 5;
+}
+
+.container__wrapper::after {
+  margin-left: 84%;
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 300px;
+  height: 100%;
+  z-index: 5;
+}
+
+.container__wrapper::before {
+  background: linear-gradient(to right, rgba(13, 17, 23, 1), #0f8fff00);
+}
+
+.container__wrapper::after {
+  background: linear-gradient(to left, rgba(13, 17, 23, 1), #0a111700);
+}
+
+ .card__backed{
   display: flex;
   justify-content: center;
 max-width: 334px;
@@ -797,13 +874,33 @@ border: 2px solid #2A3744;
 background-color: #121E28;
 }
 .container__cards__backed{
-  width: 100%;
   display: flex;
-  flex-wrap: nowrap;
-  transform: translateY(5px);
-  box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.486);
-    align-items: center;
+  gap: 37px;
+  position: relative;
+  animation: scroll 30s linear infinite;
+  animation-delay: 2s;
+  display: flex;
 }
+.container__cards__backed > * {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.container__cards__backed {
+  height: 435px;
+  min-width: 400px;
+  border-radius: 8px;
+  padding: 32px;
+  display: flex;
+  position: relative;
+  z-index: 2;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  
+} 
 .dashboard__text__press{
   display: flex;
       justify-content: center;
