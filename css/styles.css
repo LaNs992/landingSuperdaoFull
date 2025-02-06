@@ -1313,6 +1313,149 @@ align-items: center;
 .block__text__help {
   max-width: 738px;
 }
+.container__weekly {
+  max-width: 736px;
+  height: 293px;
+}
+.dashboard__header__textWeekly {
+  font-size:36px;
+}
+.weekly__text {
+  font-size: 28px;
+}
+.inp__weekly {
+  width: 324px;
+  height: 60px;
+
+}
+.card__backed  {
+  width: 222px;
+  height: 52px;;
+  padding: 22px 26px ;
+
+
+}
+.container__cards__backed {
+  height: 237px;
+}
+.press__block,.press__block2,.press__block3 {
+width: 232px;
+height: 335px;
+}
+
+.press__block__img {
+  margin-left: 12px;
+}
+.press__block__Htext {
+font-size: 18px;
+line-height: 24px;
+width: 192px;
+margin-left: 20px;
+}
+.press__block__maintext {
+font-size: 13px;
+line-height: 22px;
+width: 192px;
+margin-left: 20px;
+
+
+}
+.press__block__readrow {
+font-size: 12px;
+width: 192px;
+margin-left: 20px;
+
+}
+.press__block__readrow img {
+  margin-left: 4px;
+}
+.header__block__press {
+  margin-top: 70px;
+}
+.dashboard__header__podcast {
+  font-size: 36px
+}
+.dashboard__title__2starPod {
+  width: 44px;
+}
+.podcast__block {
+  width: 232px;
+  height: 284px;
+}
+.podcast__block__Htext {
+font-size: 17px;
+width: 192px;
+line-height: 24px;
+margin-left: 20px;
+}
+.podcast__block__maintext {
+font-size: 14px;
+width: 192px;
+line-height: 20px;
+margin-left: 20px;
+
+
+}
+.podcast__block__readrow {
+font-size: 12px;
+width: 192px;
+margin-left: 20px;
+}
+.podcast__block__img {
+  margin-left: 20px;
+  width: 40px;
+}
+.main__stars3 img{
+  width: 43px;
+}
+.dashboard__title__text {
+font-size: 36px;
+line-height: 20px;
+}
+.dashboard__title__maintext {
+font-size: 30px;
+}
+.btn__tg ,.btn__email {
+width: 235px;
+height: 72px;
+}
+.btn__tg img {
+width: 52px;
+margin-left: -17px;
+
+}
+.btn__email img {
+  width: 52px;
+  margin-left: -10px;
+  }
+  .text__btn__main,.text__btn__main__email {
+font-size: 18px;
+  }
+  .text__btn__text,.text__btn__text__email  {
+    font-size: 14px;
+  }
+  .footer__logo img {
+    max-width: 170px;
+  }
+  .footer__text {
+    margin-left: 10%;
+    width: 224px;
+  }
+  .footer__icon img {
+    width: 44px;
+  }
+  .header__menu-items {
+    margin-right: 34px;
+  }
+  .fot_ic {
+    margin-right: 10px;
+}
+.footer__icon {
+  margin-left: 10%;
+}
+.footer__block {
+margin-left: -100px;
+}
 }
 
 /* Для экранов шириной больше 1200px (например, десктопы) */
