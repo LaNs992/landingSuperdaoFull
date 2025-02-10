@@ -1230,13 +1230,13 @@ align-items: center;
 
 @media (max-width: 1200px) {
  .dashboard__title{
-  font-size: 36px;
-  max-width: 400px;
+  font-size: 52px;
+  max-width: 454px;
   line-height: 48px;
  }
  .dashboard__text{
-  font-size:18px;
-  max-width: 400px;
+  font-size:20px;
+  max-width: 499px;
   line-height: 29px;
  }
  .dashboard__btn{
@@ -1457,6 +1457,251 @@ font-size: 18px;
 margin-left: -100px;
 }
 }
+@media (max-width: 768px) {
+  .dashboard__title{
+   font-size: 36px;
+   max-width: 400px;
+   line-height: 48px;
+  }
+  .dashboard__text{
+   font-size:18px;
+   max-width: 400px;
+   line-height: 29px;
+  }
+  .dashboard__btn{
+   font-size: 15px;
+   width: 145px;
+   height: 46px; 
+   padding:0px ;
+  }
+  
+  .dashboard__header__text{
+   font-size: 28px;
+   width: 400px;
+  }
+  .dashboard__title__star{
+   max-width: 38px;
+  }
+  .tag__text,.tag__text2,.tag__text3,
+  .tag__text4,.tag__text5,.tag__text6,.tag__text7 {
+   max-width: 149px;
+   height: 38px;
+   font-size: 14px;
+   padding: 8px 24px ;
+  }
+  .block__tag__text {
+    width: 400px;
+  }
+  .img__block img {
+  width: 400px;
+  height: 328px;
+  object-fit: cover;
+   
+  }
+  .dashboard__header__text2 {
+    width: 328px;
+   font-size: 28px;
+   line-height: 30px;
+  }
+  .dashboard__title__star2{
+   max-width: 29px;
+  }
+  .dashboard__pj {
+   margin-bottom: 30px;
+  }
+  .dashboard__header__text3,.dashboard__header__textBl  {
+   font-size: 20px;
+   line-height: 36px;
+ 
+  }
+  .dashboard__header__textTools {
+   font-size: 28px;
+  }
+  .dashboard__title__2star {
+   max-width: 27px;
+ }
+ .tags_tools,.tags_toolsFirst {
+   font-size: 14px;
+ }
+ .tags__tools_list {
+  width: 412px;
+  height: 47px;
+  display: flex;
+  margin-left: 122px;
+  flex-wrap: wrap;
+  align-content: center;
+ }
+ .watch__btn {
+   font-size: 17px;
+   width: 240px;
+   height: 56px; 
+   padding: 10px 48px 10px 48px;
+ }
+ .dashboard__header__works {
+   font-size: 36px;
+ 
+ }
+ .card__img {
+  width: 100px;
+  margin-left: 30px;
+ }
+ .dashboard__title__2star {
+   padding-bottom: 40px;
+ }
+ .dashboard__pjHelp {
+   margin-left: 20px;
+   margin-bottom: 17px;
+ }
+ .help__txt {
+   font-size: 32px;
+ }
+ .block__text__help {
+   max-width: 738px;
+ }
+ .container__weekly {
+   max-width: 736px;
+   height: 293px;
+ }
+ .dashboard__header__textWeekly {
+   font-size:36px;
+ }
+ .weekly__text {
+   font-size: 28px;
+ }
+ .inp__weekly {
+   width: 324px;
+   height: 60px;
+ 
+ }
+ .card__backed  {
+   width: 222px;
+   height: 52px;;
+   padding: 22px 26px ;
+ 
+ 
+ }
+ .container__cards__backed {
+   height: 237px;
+ }
+ .press__block,.press__block2,.press__block3 {
+ width: 232px;
+ height: 335px;
+ }
+ 
+ .press__block__img {
+   margin-left: 12px;
+ }
+ .press__block__Htext {
+ font-size: 18px;
+ line-height: 24px;
+ width: 192px;
+ margin-left: 20px;
+ }
+ .press__block__maintext {
+ font-size: 13px;
+ line-height: 22px;
+ width: 192px;
+ margin-left: 20px;
+ 
+ 
+ }
+ .press__block__readrow {
+ font-size: 12px;
+ width: 192px;
+ margin-left: 20px;
+ 
+ }
+ .press__block__readrow img {
+   margin-left: 4px;
+ }
+ .header__block__press {
+   margin-top: 70px;
+ }
+ .dashboard__header__podcast {
+   font-size: 36px
+ }
+ .dashboard__title__2starPod {
+   width: 44px;
+ }
+ .podcast__block {
+   width: 232px;
+   height: 284px;
+ }
+ .podcast__block__Htext {
+ font-size: 17px;
+ width: 192px;
+ line-height: 24px;
+ margin-left: 20px;
+ }
+ .podcast__block__maintext {
+ font-size: 14px;
+ width: 192px;
+ line-height: 20px;
+ margin-left: 20px;
+ 
+ 
+ }
+ .podcast__block__readrow {
+ font-size: 12px;
+ width: 192px;
+ margin-left: 20px;
+ }
+ .podcast__block__img {
+   margin-left: 20px;
+   width: 40px;
+ }
+ .main__stars3 img{
+   width: 43px;
+ }
+ .dashboard__title__text {
+ font-size: 36px;
+ line-height: 20px;
+ }
+ .dashboard__title__maintext {
+ font-size: 30px;
+ }
+ .btn__tg ,.btn__email {
+ width: 235px;
+ height: 72px;
+ }
+ .btn__tg img {
+ width: 52px;
+ margin-left: -17px;
+ 
+ }
+ .btn__email img {
+   width: 52px;
+   margin-left: -10px;
+   }
+   .text__btn__main,.text__btn__main__email {
+ font-size: 18px;
+   }
+   .text__btn__text,.text__btn__text__email  {
+     font-size: 14px;
+   }
+   .footer__logo img {
+     max-width: 170px;
+   }
+   .footer__text {
+     margin-left: 10%;
+     width: 224px;
+   }
+   .footer__icon img {
+     width: 44px;
+   }
+   .header__menu-items {
+     margin-right: 34px;
+   }
+   .fot_ic {
+     margin-right: 10px;
+ }
+ .footer__icon {
+   margin-left: 10%;
+ }
+ .footer__block {
+ margin-left: -100px;
+ }
+ }
 
 /* Для экранов шириной больше 1200px (например, десктопы) */
 @media (min-width: 1200px) {
