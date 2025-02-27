@@ -716,7 +716,7 @@ body {
   gap: 0px;
   border-radius: 30px;
   background-color: #121e28;
-  background-image: url(/img/body/backgroundContainer.png);
+  background-image: url(./img/body/backgroundContainer.png);
   justify-content: center;
 }
 .block__weekly {
