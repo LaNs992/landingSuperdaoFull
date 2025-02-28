@@ -271,6 +271,9 @@ body {
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
 }
+.header-menu-btn {
+  display: none;
+}
 .header__menu-item a {
   text-decoration: none;
 }
@@ -578,7 +581,6 @@ body {
 
   letter-spacing: 1px;
   text-decoration-skip-ink: none;
-  margin-left: 2%;
   display: table-cell;
 }
 .cardsTools {
@@ -680,7 +682,7 @@ body {
 .img_help {
   display: flex;
   justify-content: center;
-  margin-left: 15px;
+  gap: 15px;
 }
 .help__txt {
   font-family: "Loos Wide", sans-serif;
@@ -799,7 +801,7 @@ input::placeholder {
   margin-top: 220px;
   display: flex;
   justify-content: center;
-  margin-left: 75px;
+  margin-left: 44px;
   align-items: flex-end;
 }
 
@@ -1564,7 +1566,7 @@ background-color: #121E28;
   }
   .img_help .card__img {
     width: 73px;
-    margin-left: 10px;
+    margin-left: 0;
   }
   .dashboard__title__2star {
     padding-bottom: 40px;
